@@ -7,7 +7,7 @@ npm i sequelize express slite3
 ```
 una vez iniciado el proyecto y aber descargado las dependencias nesesarias  se nos desplegara un proyecto de express con node modules 
 
-![imagen](/imgs/img2.png)
+![imagen](/documentacion/imgs/img2.png)
 
 posteriormente nosotros le agregaremos el app.js, una caarpeta de models  por buenas practicas ya que dentro estarran nuestros modelos que se enlazaran ala base de datos el archivo de coneccion haremos las configuraciones correspondientes parraa enlasarrlo a la base de datos que usaremos, en este caso usaremos sqlite ya que solo para moptivos estudiantiles sera mas sencillo
 
@@ -15,12 +15,12 @@ posteriormente nosotros le agregaremos el app.js, una caarpeta de models  por bu
 ## Creacion de la base de datos 
 abriremos nuestro seqlite y crearemos una base de datos con el nombre "proyecto" o cualquier nombre que ustedes puedan identificar.
 
-![imagen](/imgs/bd.png)
+![imagen](/documentacion/imgs/bd.png)
 
 lo imporrtante sera el lugar donde ubiquen el archivo en el que guardaran
 guardenlo en el archivo back donde esta nuestro proyecto parr poder acceder a el de mejor manera y asi tendremos mejores rresultados a la hora de consultar nuestra tabla
 
-![imagen](/imgs/bdUbicacion.png)
+![imagen](/documentacion/imgs/bdUbicacion.png)
 asi deveria quedar el proyecto e la api que crearemos
 
 ![imagen](/imgs/imgindice.png)
@@ -42,7 +42,7 @@ module.exports = sequelize;
 
 esta seria la parte de los modelos que se crearan 
 para nuestro crud y acceder ala base de daatos,en este caso solamente tenemos un archivo con una sola tabla en sqlite.
-![imagen](/imgs/modelos.png)
+![imagen](/documentacion/imgs/modelos.png)
 
 
 
@@ -232,11 +232,11 @@ npm run dev
 ---
 ya creado el proyecto se deve de verr de esta forma
 
-![img](/imgs/front.png)
+![img](/documentacion/imgs/front.png)
 
 Abrimos la carpeta src la cual trabajaremos sobre ella, solo borraremos lo nesesario y agragaremos los modulos y los componentes nesesarios.
 
-![img](/imgs/src.png)
+![img](/documentacion/imgs/src.png)
 
 ```javascript
 import React, { useEffect, useState } from 'react';
@@ -355,4 +355,4 @@ export default App;
 esta serria la vista de nuestro crud 
 el cual se comunicaa con nuestra base de datos
 
-![img](/imgs/frame.png)
+![img](/documentacion/imgs/frame.png)
