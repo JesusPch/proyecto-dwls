@@ -23,7 +23,7 @@ guardenlo en el archivo back donde esta nuestro proyecto parr poder acceder a el
 ![imagen](/documentacion/imgs/bdUbicacion.png)
 asi deveria quedar el proyecto e la api que crearemos
 
-![imagen](/imgs/imgindice.png)
+![imagen](/documentacion/imgs/imgindice.png)
 -----
 Esta es la parte de la coneccion de la base de datos sacada de la documentacion de sequelize de su pagina oficial 
 [sequlize](https://sequelize.org/)
